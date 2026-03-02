@@ -1,23 +1,27 @@
 * { 
     margin: 0px;
     padding: 0px;
-}
+}  
 
 body{
-
+ grid-template-areas: 
+ "nav header header header"
+ "nav main main main"
+ "footer footer footer footer";
 }
 
 header{
+    grid-area: header;
+}
 
+nav{
+    grid-area:nav;
 }
 
 main{
-
+    grid-area:main;
 }
 
 footer{
-    
+    grid-area:footer;
 }
-
-
-
