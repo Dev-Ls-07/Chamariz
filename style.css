@@ -27,12 +27,14 @@
             position: relative;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             z-index: 1000;
+
+
         }
 
         nav {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 4rem;
+            max-width: auto;
+            margin: 0;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -63,14 +65,12 @@
             opacity: 0.8;
         }
 
-        /* SEÇÃO HERO */
+        /* SEÇÃO HERO
+       #514361 00%, #292436 40%, #000000 100% 
+        
+        */
         .hero {
-            background-image: url(assets/tentativa.png);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            margin-top: 5px;
+            background-image: linear-gradient(to bottom, #000000 0%, #292436 60%, #382f50 80%, #514361 100%);
             color: white;
             padding: 0.7rem 2rem;
             text-align: center;
@@ -78,18 +78,19 @@
 
         .hero h1 {
             font-size: 3rem;
-            margin-bottom: 1rem;
+            /*margin-bottom: 1rem; */
         }
 
         .hero p {
             font-size: 1.2rem;
-            margin-bottom: 2rem;
+            /* margin-bottom: 2rem; */
         }
 
         .btn {
             display: inline-block;
+            margin: 15px;
             background: white;
-            color: #4f1927;
+            color: #000000;
             padding: 1rem 2rem;
             border-radius: 50px;
             text-decoration: none;
@@ -105,20 +106,22 @@
 
         /* CONTAINER PRINCIPAL */
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: auto;
             padding: 4rem 2rem;
+            background-image: linear-gradient(to bottom, #514361 0%, #9682ae 10%, #ccbfdb 20%, #ffffff 30%);
         }
 
         /* SEÇÃO DE CONTEÚDO */
         .content-section {
             margin-bottom: 4rem;
-        }
+          /*       */
+          }
 
         .content-section h2 {
             font-size: 2rem;
             margin-bottom: 1rem;
             color: #000000;
+
         }
 
         /* GRID DE CARDS */
@@ -147,6 +150,10 @@
             margin-bottom: 1rem;
         }
 
+        #contato {
+            margin-top: 10%;
+        }
+
         /* RODAPÉ */
         footer {
             background: linear-gradient(135deg, #242529 0%, #1f1e20 100%);
@@ -157,7 +164,7 @@
         }
 
         /* RESPONSIVO */
-        @media (max-width: 768px) {
+        @media (max-width: 1200px) {
             .hero h1 {
                 font-size: 2rem;
             }

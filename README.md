@@ -1,17 +1,7 @@
-# Chamariz
-Este é um site teste para ver se a dupla do caps estão em sinergia
-
-<h2>Insider</h2>
+<h1 style="background-color:#9633; border-radius:7px; padding-left:12px;">FunServices</h1>
+<h4>Este é um site para a realização de serviços de funerária</h4>
 
 
-<h3>One Day, or, Day One...</h3>
+<h2 style="background-color:#4628; border-radius:7px; padding-left:12px;">Atendimento</h2>
 
-<img height="30px" src="https://github.com/Dev-Ls-07/Dev-Ls-07/blob/main/assets/sp.png?raw=true">
-
-<h2>esta era para ser a bandeira do Rio Grande do Sul</h2>
-
-<img height="30px" src="https://github.com/Dev-Ls-07/Dev-Ls-07/blob/main/assets/rs.png?raw=true">
-
-
-<h2>teste</h2>
-
+Atendimento funerário com acolhimento, agilidade e transparência. Organizamos velórios, sepultamentos e traslados, orientando a família em cada etapa — 24 horas por dia.
